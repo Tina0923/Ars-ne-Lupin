@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Arsène Lupin</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #D0D0D0, #272727); /*設定背景顏色(漸層)*/
+            min-width: 850px; /*設定最小寬度*/
+            color: white;
+        }
+        div {
+            text-align: center; /*置中*/
+            padding:10px;
+        }
+        h1 {
+            font-size: 68px;
+            text-shadow: 7px 7px #FFE66F;
+        }
+        p{
+            color:white;
+        }
+        main {
+            padding: 30px 150px 30px 150px;
+        }
+
+        /*LOGO*/
+        .logo {
+            width: 150px;
+        }
+
+        /*導覽列*/
+        nav {
+            display: block; /*以區塊方式顯示*/
+            text-align: center;
+        }
+        nav > ul {
+            background-color: none;
+            margin: 0px auto 0px auto; /*自動調整左右邊距*/
+            border-top: 6px solid;
+            border-bottom: 4px solid;
+            border-image: linear-gradient(to right, transparent, #6C6C6C, transparent) 1;
+            list-style-type: none;
+        }
+        nav > ul > li {
+            display: inline-block;
+            text-align: center;
+            margin: 5px 30px;
+            font-size: 20px;
+        }
+        nav > ul > li > a {
+            text-decoration: none;
+            color: white;
+        }
+        nav > ul > li :hover {
+            color: black;
+            background-color:#FFE66F;
+        }
+
+        /*footer版權說明*/
+        footer {
+            border-top: 6px solid;
+            border-image: linear-gradient(to right, transparent, #6C6C6C, transparent) 1;
+        }
+        .data {
+            color:white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /*圖片*/
+        .france {
+            width: 580px;
+            float: none;
+        }
+        .ML {
+            width: 300px;
+            float: right;
+        }
+        .AR {
+            width: 280px;
+            float: left;
+        }
+        .FM {
+            width: 250px;
+            float: right;
+        }
+        img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+
+        /*表格*/
+        table{
+            margin:10px;
+            border-collapse:collapse;
+        }
+        th {
+            color: #EAC100;
+            font-size:16pt;
+        }
+        td{
+            padding:10px;
+        }
+
+        /*回頂部*/
+        .up {
+            position: fixed;
+            bottom:20px;
+            right:30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <a href="Midterm_111316118_林珈甄.html"><img class="logo" src="logo.png" /></a>    <!--logo-->
+
+            <div id="head">
+                <nav>
+                    <!--導覽列-->
+                    <ul>
+                        <li><a href="#author">AUTHOR</a></li>
+                        <li><a href="#role">ROLE</a></li>
+                        <li><a href="#chronicle">CHRONICLE</a></li>
+                        <li><a href="#FAT">FILM AND TELEVISION</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main_div">
+            <section>
+                <div  style="height:350px;">
+                    <img class="france" src="header2.jpg" />
+                </div>
+            </section>
+
+            <article id="author">
+                <h1>AUTHOR</h1>
+                <div style="border-top: 5px double black; border-right: 5px double black;">
+                    <h2>莫里斯·盧布朗</h2>
+                    <div style="background-color: #EAC100;  font-size: 13pt;">
+                        <img class="ML" src="author-removebg-preview.png" style="margin-top: -90px; margin-right: -15px;" />
+                        <p style="text-align:left;">
+                            莫里斯．盧布朗（Maurice Leblanc）是一位法國小說家，出生於1864年。他是「亞森·羅蘋」的創作者，也是一位著名的推理小說作家。盧布朗的代表作是「亞森．羅蘋」系列小說，其中最著名的是《亞森羅蘋：福爾摩斯的對手》。這本小說首次介紹了亞森．羅蘋這個神秘而才華橫溢的小偷角色，迅速成為了法國和國際間的暢銷書。他的作品風格精湛，文筆優美，推理情節緊湊，贏得了廣泛的讀者和讚譽。盧布朗的其他作品還包括歷史小說、愛情小說和科幻小說等多種類型。他對於文學的貢獻被認為對於法國推理小說產生了深遠的影響。他的作品也多次被改編為電影和電視劇，延續了他的文學遺產。總體而言，莫里士．盧布朗是一位不可忽視的推理小說大師，他的作品經典而精彩，為法國文學做出了重要貢獻。
+                        </p>                        
+                    </div>
+                </div>
+            </article>
+
+            <article id="role">
+                <h1>ROLE</h1>
+                <div style="border-left: 5px double black; border-bottom: 5px double black;">
+                    <div>
+                        <h2>亞森．羅蘋</h2>
+                        <div style="background-color: #EAC100; font-size:13pt;margin-top:30px;">
+                            <img class="AR" src="亞森羅蘋-removebg-preview.png" style="margin-top: -75px; margin-left:-40px;" />
+                            <p style="text-align:left;">
+                                亞森．羅蘋是法國作家莫里斯．盧布朗所創造的小說人物，也是世界著名的偵探形象之一。他通常被描繪為一個扮演反派角色的大盜，同時也擁有智慧的頭腦和高超的技巧。亞森．羅蘋的形象最初出現在莫里斯．盧布朗於1905年發表的小說《亞森羅蘋》中，是以竊取珠寶為生的大盜，他常常能夠在警方和其他競爭對手的追捕下逃脫。儘管他是一個以犯罪為生的角色，但他也有他自己的道德觀和人性特點。亞森．羅蘋的形象深受讀者喜愛，尤其是在法國和歐洲。他的形像也被多次改編為電影、電視劇和漫畫，其中比較著名的包括1960年代的電影《亞森羅蘋》和2013年的電影《亞森羅蘋：大盜起源》，NETFLIX也有亞森．羅蘋的影集。亞森．羅蘋的形像已經成為了文學和影視作品中經典的角色之一，他的故事也被廣泛地傳頌和閱讀。
+                            </p>
+                        </div>
+                        <h2>福爾摩斯</h2>
+                        <div style="background-color: #EAC100; font-size:13pt;">
+                            <img class="FM" src="福爾摩斯-removebg-preview.png" style="margin-top: 10px; margin-right:-15px;" />
+                            <p style="text-align:left;">
+                               福爾摩斯是英國小說家柯南．道爾所創作的虛構人物，以其極其聰明的智力和分析能力而著名。他在破案過程中通常只憑觀察和推理，就能找出真相。福爾摩斯具有非凡的推理和邏輯能力，甚至能夠根據細節判斷出犯罪嫌疑人的心理狀態和行為模式。福爾摩斯和亞森．羅蘋是兩個知名的偵探角色，曾在小說《福爾摩斯與亞森羅蘋》中展開過激烈的對決。故事中，亞森．羅蘋盜竊了法國大使館的珠寶，福爾摩斯隨即展開調查。兩位偵探在推理過程中進行了多次較量，亞森．羅蘋多次逃脫福爾摩斯的追捕，最終福爾摩斯在洛杉磯的一場激烈的較量中將亞森．羅蘋逮捕歸案。這場對決被認為是偵探小說中經典的智力較量之一，也讓福爾摩斯和亞森．羅蘋的形象更加深入人心。
+                            </p>
+                        </div>
+                    </div>                    
+                </div>
+            </article>
+
+            <article id="chronicle">
+                <h1>CHRONICLE</h1>
+                <div style="border: 5px double black;">
+                    <table style="border-bottom: 2px solid white;">
+                        <tr>
+                            <th style="width:110pt; border-right:2px solid white;">Year</th>
+                            <th style="width:500pt;">The event</th>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1874</td>
+                            <td>亞森．羅蘋出生</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1878</td>
+                            <td>父親泰奧弗拉斯特．羅蘋去世</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1880</td>
+                            <td>犯下〈王后的項鍊〉一案</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1887</td>
+                            <td>母親昂立艾特．德萊齊病逝，之後小羅蘋由奶媽維克圖瓦扶養成人</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1894</td>
+                            <td>以拉烏爾．德萊齊的名義同克拉莉絲．德蒂格在南法陷入熱戀，經歷〈神秘女盜賊〉一案後兩人隨即結婚，羅蘋並向愛妻發誓婚後不再行竊</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1894-1900</td>
+                            <td>建立一些企業，期間發現並掌握空心岩柱秘密</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1895</td>
+                            <td>羅蘋與克拉莉絲的女兒出生後即夭折</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1899-1900</td>
+                            <td>克拉莉絲難產逝世，繈褓中的兒子尚‧德萊齊失蹤，羅蘋痛失愛妻及稚兒，自此羅蘋全心全意地投入犯罪生涯中</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1901</td>
+                            <td>私生女樂納維耶芙出生，羅蘋將孩子交給奶媽維克圖瓦撫養</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1908</td>
+                            <td>〈空心岩柱(奇巖城)〉一案發生</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1909</td>
+                            <td>羅蘋將空心柱岩交給法國政府</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1912</td>
+                            <td>介入〈八一三之謎〉，以勒諾曼魯老處長的身份調查克賽巴赫案，之後因失手殺了朵諾瑞．克賽爾巴赫而心灰意冷，跳樓自殺未遂後以唐路易．佩雷納的身份加入外籍兵團</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1912-1914</td>
+                            <td>
+                                唐路易在外籍兵團的前兩年裡，獲得軍功章、榮譽團勳章以及七次獲得通令嘉獎
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1915</td>
+                            <td>介入〈黃金三角〉一案，故意成為柏柏爾人戰俘，成為首領。</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1917</td>
+                            <td>〈棺材島〉一案</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1919</td>
+                            <td>唐路易作為龐大遺產繼承人之一，身涉〈虎牙〉一案</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1925</td>
+                            <td>羅蘋與兒子尚．德萊齊重逢</td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: 2px solid white;">1927</td>
+                            <td>與對伊莉莎白·加維雷之死的調查</td>
+                        </tr>
+                    </table>
+                    <a href="Story.html"><img src="view_more-removebg-preview.png" style="width:100pt;"/></a>
+                </div>        
+            </article>
+
+            <article id="FAT">
+                <div>
+                    <h1>FILM AND TELEVISION</h1>
+                    <video width="700" controls="controls">
+                        <source src="怪盜羅蘋第 2 部  正式前導預告  Netflix.mp4" type="video/mp4">
+                        <source src="怪盜羅蘋第 2 部  正式前導預告  Netflix.mp4" type="video/ogg">
+                    </video>
+                    <div>
+                        <p> ▶&nbsp;《怪盜羅蘋》第 2 部 | 正式前導預告 | Netflix</p>
+                    </div>
+                </div>
+            </article>
+
+            <a href="#" class="up"><img src="up-removebg-preview.png" style="width:50pt;"/></a>      <!--回頂部-->
+        </main>
+
+        <footer>
+            <p>本網站為作業之用，如有侵權敬請告知。</p>
+            <p>
+            資料來源：
+            <a class="data" href="https://zh.wikipedia.org/zh-tw/%E8%8E%AB%E9%87%8C%E6%96%AF%C2%B7%E7%9B%A7%E5%B8%83%E6%9C%97"> 莫里斯·盧布朗</a>、
+            <a class="data" href="https://www.best100club.com/projects/Arsene_Kid">亞森．羅蘋</a>、
+            <a class="data" href="https://es.dreamstime.com/retrato-art%C3%ADstico-de-sherlock-holmes-image111736776">福爾摩斯</a>、
+            <a class="data" href="https://kknews.cc/news/eyv54kz.html">法國舊影</a>、
+            <a class="data" href="https://www.youtube.com/watch?v=qxrpFkimP2Q">Youtube</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

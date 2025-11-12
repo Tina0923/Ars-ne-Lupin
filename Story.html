@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Story</title>
+    <style>
+
+        body {
+            font-family: 標楷體;
+            background: linear-gradient(to bottom, #D0D0D0, #272727); /*設定背景顏色(漸層)*/
+            min-width: 1080px;
+        }
+
+        main {
+            padding: 30px 150px 30px 150px;
+        }
+
+        div {
+            text-align: center;
+            color:white;
+        }
+
+        /*LOGO*/
+        .logo {
+            width: 150px;
+        }
+        nav {
+            display: block;
+            text-align: center;
+        }
+        nav > ul {
+            background-color: none;
+            margin: 0px auto 0px auto;
+            border-top: 6px solid;
+            border-bottom: 4px solid;
+            border-image: linear-gradient(to right, transparent, #6C6C6C, transparent) 1;
+            list-style-type: none;
+        }
+        nav > ul > li {
+            display: inline-block;
+            text-align: center;
+            margin: 5px 30px;
+            font-size: 20px;
+        }
+        nav > ul > li > a {
+            text-decoration: none;
+            color: white;
+        }
+        nav > ul > li :hover {
+            color: black;
+            background-color: #FFE66F;
+        }
+        img {
+            width: 100px;
+        }
+        img:hover {
+            overflow: hidden;
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+        h1 {
+            font-size: 68px;
+            color: white;
+            text-shadow: 7px 7px #FFE66F;
+        }
+        table {
+            border: 5px double #E0E0E0;
+            border-collapse:collapse;
+        }
+        tr {
+            border-bottom: 2px solid #E0E0E0;
+        }
+        th {
+            color: #FFE66F;
+            font-size:24px;
+            padding:10px;
+        }
+        td {
+            color: #E0E0E0;
+            padding: 15px;
+        }
+        .event{
+            width: 120px;
+        }
+        .event:hover {
+            background-color: #FFD2D2;
+            color: black;
+            font-size: 18px;
+            transition: 0.5s;
+        }
+        .year {
+            width: 90px;
+        }
+        .year:hover {
+            background-color: #FFF0AC;
+            color: black;
+            font-size: 19px;
+            transition: 0.5s;
+        }
+        .book {
+            width: 120px;
+        }
+        .book:hover {
+            background-color: #D0D0D0;
+        }
+        .content {
+            width: 600px;
+        }
+        .content:hover {
+            background-color: #D8D8EB;
+            color: black;
+            font-size: 16px;
+            transition: 0.5s;
+        }
+        /*回頂部*/
+        .up {
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+        }
+        /*footer版權說明*/
+        footer {
+            border-top: 6px solid;
+            border-image: linear-gradient(to right, transparent, #6C6C6C, transparent) 1;
+        }
+        .data {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <a href="Midterm_111316118_林珈甄.html"><img class="logo" src="logo.png" /></a>    <!--logo-->
+            <div id="head">
+                <nav>
+                    <!--導覽列-->
+                    <ul>
+                        <li><a href="#queen">皇后的項鍊</a></li>
+                        <li><a href="#thief">神秘女盜賊</a></li>
+                        <li><a href="#rock">空心岩柱</a></li>
+                        <li><a href="#mystery">八一三之謎</a></li>
+                        <li><a href="#gold">黃金三角</a></li>
+                        <li><a href="#island">棺材島</a></li>
+                        <li><a href="#tooth">虎牙</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1>STORY</h1>
+            <table>
+                <tr>
+                    <th>Event</th>
+                    <th>Year</th>
+                    <th>Book</th>
+                    <th>Content</th>
+                </tr>
+                <tr id="queen">
+                    <td class="event">皇后的項鍊</td>
+                    <td class="year">1880年</td>
+                    <td class="book"><a href="https://www.books.com.tw/products/0010477780?loc=P_br_r0vq68ygz_D_2aabd0_C_1"><img src="皇后的項鍊.jpg" /></a></td>
+                    <td class="content"><q>一樁離奇的珍寶失竊案，揭開羅蘋深藏多年的祕密！</q></td>
+                </tr>
+                <tr id="thief">
+                    <td class="event">神秘女盜賊</td>
+                    <td class="year">1894年</td>
+                    <td class="book"><a href="https://www.eslite.com/product/1001130882533877"><img src="神秘女盜賊.jpg" /></a></td>
+                    <td class="content">一萬顆稀世寶鑽引來三路人馬爭鬥搶奪，<br />黃楊木制的小方盒下暗藏什麼玄機？<br />星座、密語與古老傳說交織，<br />亞森．羅蘋如何破密解疑，找出藏寶地？</td>
+                </tr>
+                <tr id="rock">
+                    <td class="event">空心岩柱</td>
+                    <td class="year">1908年</td>
+                    <td class="book"><a href="https://www.eslite.com/product/1001127341990395"><img src="空心岩柱(奇巖城).jpg" /></a></td>
+                    <td class="content">亞森．羅蘋行竊失手受傷生死未卜，<br />人人關注的卻是少年英雄伯特雷即將逮住怪盜。<br />面對三方追捕，羅蘋這次能夠全身而退嗎？</td>
+                </tr>
+                <tr id="mystery">
+                    <td class="event">八一三之謎</td>
+                    <td class="year">1912年</td>
+                    <td class="book"><a href="https://www.books.com.tw/products/0010483530?loc=P_br_r0vq68ygz_D_2aabd0_C_1"><img src="八一三之謎.jpg" /></a></td>
+                    <td class="content">亞森．羅蘋消失了四年，卻在最近的一樁兇殺案現場留下了名片，人是他殺的嗎？<br />現場有張寫著「813」的紙條，這三個數字背後藏了什麼不能說的祕密，必得殺人滅口？<br />亞森．羅蘋，人算不如天算<br />在這樁充滿政治角力、愛情習題的難解謎案裡，讓人看見亞森．羅蘋最真實的脆弱。</td>
+                </tr>
+                <tr id="gold">
+                    <td class="event">黃金三角</td>
+                    <td class="year">1915年</td>
+                    <td class="book"><a href="https://www.eslite.com/product/1001127342029216"><img src="黃金三角.jpg" /></a></td>
+                    <td class="content">復活怪盜再破奇案<br />大量黃金失竊，法國經濟陷入危機！<br />神秘的黃金三角究竟為何？</td>
+                </tr>
+                <tr id="island">
+                    <td class="event">棺材島</td>
+                    <td class="year">1917年</td>
+                    <td class="book"><a href="https://www.eslite.com/product/1001127342009329"><img src="棺材島.jpg" /></a></td>
+                    <td class="content">怪盜劃破恐怖傳說，迷信包覆黑暗島嶼，天主寶石誰能得手！<br />棺材島上的恐怖魔鬼緊緊糾纏，美麗女子受盡折磨。<br />終結一切謎團與悲劇，全寄望於英雄羅蘋的現身。</td>
+                </tr>
+                <tr id="tooth">
+                    <td class="event">虎牙</td>
+                    <td class="year">1919年</td>
+                    <td class="book"><a href="https://www.eslite.com/product/1001127342019494"><img src="虎牙.jpg" /></a></td>
+                    <td class="content">瀕死的怪盜<br />由怨恨與惡意構築而成的迷團，讓羅蘋也陷入危機；<br />圍繞在龐大遺產下的陰謀，究竟兇手是誰？</td>
+                </tr>
+            </table>
+            <a href="#" class="up"><img src="up-removebg-preview.png" style="width:50pt;" /></a>      <!--回頂部-->
+        </main>
+        
+        <footer>
+            <p>本網站為作業之用，如有侵權敬請告知。</p>
+            <p>
+                資料來源：
+                <a class="data" href="https://search.books.com.tw/search/query/key/%E8%8E%AB%E9%87%8C%E6%96%AF%EF%BC%8E%E7%9B%A7%E5%B8%83%E6%9C%97/adv_author/1/"> 博客來</a>、
+                <a class="data" href="https://www.eslite.com/search?keyword=%E8%8E%AB%E9%87%8C%E6%96%AF%EF%BC%8E%E7%9B%A7%E5%B8%83%E6%9C%97&author=WyLojqvph4zmlq_vvI7nm6fluIPmnJciXQ&final_price=0,&publishDate=0&sort=_weight_%20desc&size=20&display=list&start=0">誠品</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
